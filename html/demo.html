@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0px auto;
+        padding: 0;
+    }
+    
+    .wrapper {
+        height: 800px;
+        width: 1089px;
+        background-color: bisque;
+        border: solid 1px blue;
+    }
+    
+    .header {
+        height: 200px;
+        width: 1089px;
+        background-color: aquamarine;
+        border-bottom: solid 1px blue;
+        position: relative;
+    }
+    
+    .header img {
+        height: 200px;
+        width: 1089px;
+    }
+    
+    .header .hoten {
+        position: absolute;
+        top: 30px;
+        left: 20px;
+        font-size: 30px;
+        color: white;
+        font-style: oblique;
+        font-weight: bold;
+    }
+    
+    .header .mssv {
+        position: absolute;
+        top: 30px;
+        right: 20px;
+        font-size: 30px;
+        color: white;
+        font-style: oblique;
+        font-weight: bold;
+    }
+    
+    .nav {
+        height: 50px;
+        width: 100%;
+        background-color: rgb(192, 209, 209);
+        border-bottom: solid 1px blue;
+    }
+    
+    .nav .menu li {
+        float: left;
+        list-style-type: none;
+        height: 50px;
+        width: 150px;
+        background-color: rgb(161, 161, 125);
+        line-height: 50px;
+        text-indent: 20px;
+        position: relative;
+    }
+    
+    .nav .menu li:hover {
+        background-color: aquamarine;
+        font-style: italic;
+    }
+    
+    .nav .menu li a {
+        text-decoration: none;
+    }
+    
+    .nav .menu li .sub-menu {
+        display: none;
+        position: absolute;
+    }
+    
+    .nav .menu li:hover .sub-menu {
+        display: block;
+        box-shadow: 0px 25px 25px 0px rgb(32, 27, 16);
+    }
+    
+    .nav .menu li .sub-menu li .sub-menu {
+        display: none;
+    }
+    
+    .nav .menu li .sub-menu li:hover>.sub-menu {
+        display: block;
+        top: 0px;
+        left: 100%;
+    }
+    
+    .content {
+        height: 450px;
+        width: 100%;
+        background-color: rgb(165, 196, 196);
+        border-bottom: solid 1px blue;
+    }
+    
+    .content .aside {
+        margin: 0;
+        height: 100%;
+        width: 50%;
+        background-color: aquamarine;
+        border-right: solid 1px blue;
+        display: inline-block;
+    }
+    
+    .content .section {
+        margin: 0;
+        height: 100%;
+        width: 49%;
+        background-color: rgb(63, 128, 105);
+        border-right: solid 1px blue;
+        float: right;
+    }
+    
+    .product {
+        margin: 10px;
+    }
+    
+    .name-product {
+        width: 358px;
+        margin: 0;
+        padding-bottom: 10px;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    .price-product {
+        width: 358px;
+        margin: 0;
+        padding-top: 10px;
+        text-align: center;
+        color: red;
+        font-weight: bold;
+        font-size: 20px;
+    }
+</style>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <img src="../img/download.jfif" alt="">
+            <p class="hoten">TRAN VAN TUAN PHONG</p>
+            <p class="mssv">21099451</p>
+        </div>
+        <div class="nav">
+            <ul class="menu">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">SERVICE</a></li>
+                <li><a href="#">CONTACT</a>
+                    <ul class="sub-menu">
+                        <li><a href="#">IPHONE</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">SERIS 13</a></li>
+                                <li><a href="#">SERIS 14</a></li>
+                                <li><a href="#">SERIS 15</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">REALME</a></li>
+                        <li><a href="#">SAMSUNG</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">EMAIL</a></li>
+                <li><a href="#">PHONE</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="aside">
+                <div class="product">
+                    <div class="name-product">
+                        <a href="#">IPHONE 11</a>
+                    </div>
+                    <img src="../img/iphone-11.webp" alt="">
+                    <p class="price-product">
+                        11tr VND
+                    </p>
+                </div>
+            </div>
+            <div class="section">
+                <div>4412</div>
+            </div>
+        </div>
+        <div class="footer">
+            FOOTER
+        </div>
+    </div>
+</body>
+
+</html>
