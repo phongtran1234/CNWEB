@@ -1,0 +1,141 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+}
+.wrapper{
+    width: 960px;
+    height: 800px;
+    background-color: #F5F9E0;
+}
+.nav{
+    position: relative;
+    width: 100%;
+    height: 70px;
+    background-color: #ECDEED;
+}
+.menu{
+
+}
+.menu li{
+    list-style-type: none;
+    width: 150px;
+    height: 70px;
+    line-height: 70px;
+    float: left;
+    text-indent: 20px;
+    font-weight: 700;
+}
+.menu li:nth-child(5){
+    width: 350px;
+}
+.menu .search a {
+    color: #D81D1A;
+}
+.menu .search input {
+    width: 130px;
+}
+.menu .search button {
+    width: 30px;
+    background-color: #adbafe;
+}
+.menu li a {
+    text-decoration: none;
+}
+.menu li:hover a {
+    color: #16288e;
+}
+.header {
+    width: 960px;
+    height:20 0px;
+}
+.header img{
+    width: 100%;
+    height: 100%;
+}
+.content{
+    width: 960px;
+    height: 430px;
+    background-color: aquamarine;
+}
+.content .section{
+    float: left;
+    margin: 0px;
+    width: 70%;
+    height: 100%;
+    background-color: #C6E7EE;
+}
+.section h1{
+    color: rgb(241, 57, 57);
+    text-align: center;
+}
+.section .content-text {
+    width: 60%;
+    height: 100%;
+    display: inline-block;
+}
+.section .content-text p{
+    padding-left: 12px;
+}
+.section .information{
+    width: 250px;
+    height: 270px;
+    display: inline-block;
+}
+.section .information fieldset {
+    width: 100%;
+    height: 270px;
+    border-radius: 10px;
+    padding-left: 10px;
+    box-shadow: 1px 1px 1px 5px #C6E7EE;
+    
+}
+.section input{
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.section label{
+    margin-top: 5px;
+}
+.section button {
+    margin: 3px;
+    width: 50px;
+    border-radius: 5px;
+}
+.aside {
+    width: 288px;
+    height: 100%;
+    background-color: white;
+    margin: 0px;
+    float: right;
+    border: 5px rgb(44, 22, 22);
+}
+.aside img {
+    width: 100%;
+    height: 90px;
+}
+.aside h1 {
+    border-bottom:dashed #a43838 ;
+    margin: 8px 0;
+    color: #D81D1A;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+}
+.footer{
+    position: relative;
+    width: 960px;
+    height: 80px;
+    background-color: #CBCC66;
+}
+.footer .khoa {
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+.footer .info {
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
